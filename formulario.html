@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mis Perris</title>
     <link rel="stylesheet" href="css/estilos.css">
-  
+    <link rel="stylesheet" href="css/formulario.css">
 </head>
 
 <body>
@@ -36,59 +36,37 @@
                 <p>Cual es la mejor mascota para usted</p>
                 <a href="">Leer Mas</a>
             </div>
-            
+
         </section>
 
         <section id="bienvenidos">
-            <h2>Bienvenidos a nuestro club</h2>
+            <h2>Formulario de registro para Adopcion</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eaque eveniet cum mollitia odio
                 inventore ipsam. Earum cum quidem, laborum corrupti est incidunt facere ad, cupiditate sunt possimus
                 adipisci omnis?</p>
         </section>
 
-        <section id="blog">
-            <h3>lo ultimo de nuestro blog</h3>
+        <section id="formulario">
+            <!-- codigo de inicio de formulario -->
+            <form class="form-registro" action="" method="post">
 
-            <div class="contenedor">
+                <h2 class="form-titulo">Creacion de Cuenta Usuario</h2>
 
-                <article>
-                    <img src="img/perro1.jpg" alt="">
-                    <h4>Perrunos son amigos</h4>
-                </article>
-                <article>
-                    <img src="img/perro2.jpg" alt="">
-                    <h4>Simpatia Perruna</h4>
-                </article>
-                <article>
-                    <img src="img/perro3.jpg" alt="">
-                    <h4>La linda mascota</h4>
-                </article>
+                <div class="contenedor-input">
+                    <input class="col-sm" type="text" name="txtNombre" id="" placeholder="ingrese nombre">
+                    <input class="col-sm" type="text" name="txtApellido" id="" placeholder="ingrese apellido">
+                    <input class="col-gr" type="email" name="txtEmail" id="" placeholder="ingrese email">
+                    <input class="col-sm" type="text" name="txtUsuario" id="" placeholder="ingrese usuario">
+                    <input class="col-sm" type="password" name="txtPass" id="" placeholder="ingrese password">
+                    <input class="col-gr" type="text" name="txtFono" id="" placeholder="ingrese fono">
 
-            </div>
+                    <input class="btn-registro" type="submit" value="Registrar">
+                </div>
+            </form>
 
         </section>
 
-        <section id="info">
-            <h3>Para muchos de nosotros las mascotas son miembros de la familia</h3>
-            <div class="contenedor">
-                <div class="info-pet">
-                    <img src="img/perro5.png" alt="">
-                    <h4>Lulo</h4>
-                </div>
-                <div class="info-pet">
-                    <img src="img/perro6.jpg" alt="">
-                    <h4>Perruno</h4>
-                </div>
-                <div class="info-pet">
-                    <img src="img/perro7.jpg" alt="">
-                    <h4>Lilo</h4>
-                </div>
-                <div class="info-pet">
-                    <img src="img/perro8.jpg" alt="">
-                    <h4>Tuno</h4>
-                </div>
-            </div>
-        </section>
+
     </main>
     <!-- footer -->
     <footer>
@@ -96,6 +74,7 @@
             <h4>Mis Perris - Desarrollo Web</h4>
         </div>
     </footer>
+    <script src="dist_lb/js/lightbox-plus-jquery.js"></script>
 </body>
 
 </html>
