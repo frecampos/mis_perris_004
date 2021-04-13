@@ -53,19 +53,23 @@
                 <h2 class="form-titulo">Creacion de Cuenta Usuario</h2>
 
                 <div class="contenedor-input">
-                    <input class="col-sm" type="text" name="txtNombre" id="" placeholder="ingrese nombre">
-                    <input class="col-sm" type="text" name="txtApellido" id="" placeholder="ingrese apellido">
-                    <input class="col-gr" type="email" name="txtEmail" id="" placeholder="ingrese email">
+                    <input class="col-sm" type="text" name="txtRut" id="txtRut" placeholder="ingrese rut">
+                    <input class="col-sm" type="text" name="txtNombreCompleto" id="" placeholder="ingrese nombre y apellido">
+                    <input class="col-sm" type="date" name="txtFechaNaci" id="txtFechaNaci">
+                    <input class="col-sm" type="email" name="txtEmail" id="" placeholder="ingrese email">
                     <input class="col-sm" type="text" name="txtUsuario" id="" placeholder="ingrese usuario">
                     <input class="col-sm" type="password" name="txtPass" id="" placeholder="ingrese password">
                     <input class="col-gr" type="text" name="txtFono" id="" placeholder="ingrese fono">
 
                     <input class="btn-registro" type="submit" value="Registrar">
+                    <input class="btn-registro" type="button" value="Validar Formulario"
+                     onclick="validacionForm()">
                 </div>
             </form>
 
         </section>
-
+        
+        <script src="js/scripts.js"></script>
 
     </main>
     <!-- footer -->
