@@ -27,7 +27,13 @@ function validarRut() {
     console.log('DV:' + dv);
     var dv_usuario = rut.slice(-1).toUpperCase();
     if ( dv != dv_usuario ) {
-        alert('rut es incorrecto');
+        //alert('rut es incorrecto');
+        //Swal.fire('el rut es incorrecto');
+        Swal.fire({
+            icon: 'error',
+            title: 'Rut',
+            text: 'el digito verificador del rut es incorrecto'    
+          });
         return false;
     }
     console.log('rut correcto');
@@ -74,4 +80,5 @@ function validacionForm() {
     if ( resp == false) {
         return false;
     }
+    return true;
 }
